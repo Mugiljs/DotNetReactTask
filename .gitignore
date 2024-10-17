@@ -1,0 +1,79 @@
+# Ignore build outputs and dependencies for .NET projects
+## Ignore .NET generated files
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET temp files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core generated files
+appsettings*.json
+.env
+
+# Don't commit secrets or sensitive data
+secrets.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux file system
+.Trash-*
+
+# JetBrains Rider files
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# .NET Core dependencies
+*.db
+*.mdf
+*.ldf
+
+# Log files
+*.log
+
+# npm packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build outputs
+/build
+/.next
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REACT_NATIVE_PACKAGER_HOSTNAME
+.expo/
+
+# Production build files
+*.map
+*.chunk.*
+
+# Ignore test output
+test-results/
